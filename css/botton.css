@@ -1,0 +1,113 @@
+.member{
+    display: inline-block;
+    width: 100px;
+    color: #e1d9af;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.botton-menu{
+    /* width: 660px; */
+    float: right;
+    color: white;
+    margin-top: 16px;
+}
+.botton-menu::after{
+    clear: both;
+}
+.botton-menu>*{
+    float: left;
+}
+.botton-menu>*::after{
+    clear: both;
+}
+.botton-menu *{
+    font-size: 14px;
+}
+.botton-menu>ul>li>i{
+    font-size: 25px;
+}
+.botton-menu>ul>li{
+    text-align: center;
+    margin: 0 14px;
+    padding: 1px;
+}
+.botton-menu>ul>li>div{
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.botton-menu>ul>li:nth-of-type(1)>div{
+    background-color: #65B92E;
+    border: 3px solid #414f29;
+}
+.botton-menu>ul>li:nth-of-type(2)>div{
+    background-color: #65B92E;
+    border: 3px solid #33474d;
+}
+.botton-menu>ul>li:nth-of-type(3)>div{
+    background-color: #6699ff;
+    border: 3px solid #3d4557;
+}
+.botton-menu>ul>li:nth-of-type(4)>div{
+    background-color: #cc66cc;
+    border: 3px solid #593c4e;
+}
+.botton-menu>ul>li:nth-of-type(5)>div{
+    background-color: #996666;
+    border: 3px solid #493832;
+}
+.botton-menu>ul>li:nth-of-type(6)>div{
+    background-color: #ff9900;
+    border: 3px solid #65481e;
+}
+.botton-menu>ul>li:nth-of-type(7)>div{
+    background-color: #ff6666;
+    border: 3px solid #653c36;
+}
+.botton-menu>ul>li:nth-of-type(2)>div>i{
+    position: relative;
+    top: 1px;
+    left: 0.5px;
+}
+.botton-menu>ul>li:nth-of-type(4)>div>i{
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+.botton-menu>ul>li:nth-of-type(6)>div>i{
+    position: relative;
+    top: 0.5px;
+    left: 0.5px;
+}
+.botton-menu>ul>li:nth-of-type(7)>div>i{
+    position: relative;
+    top: 1px;
+    left: 0px;
+}
+.botton-menu>ul>li>div>i{
+    position: relative;
+    top: 2px;
+    left: 0.5px;
+}
+.botton-menu>ul>li>p{
+    color: #d7d0b0;
+}
+.botton-menu>button{
+    width: 130px;
+    height: 55px;
+    background-color: #c5402c;
+    border: 1px solid #750e04;
+    margin-right: 18px;
+    box-shadow: 0 0 5px 3px #222;
+}
+.botton-menu>button>i{
+    font-size: 30px;
+    color: #eebf87;
+}
+.botton-menu>button>span{
+    font-size: 24px;
+    color: #fcf0d1;
+}

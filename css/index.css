@@ -1,0 +1,28 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-image: url("../images/backgroundimg.png");
+}
+.page{
+    width: 1024px;
+    height: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 18px;
+}
+.page>.left{
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.page>.right{
+    width: 720px;
+    float: right;
+    border-radius: 5px;
+}
+.botton{
+    clear: both;
+    overflow: hidden;
+}

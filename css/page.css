@@ -1,0 +1,276 @@
+.page>.left>.header-img{
+    height: 44px;
+    background: url("../images/t1.png") repeat-x;
+}
+.page>.right>.header-img{
+    height: 47px;
+    background: url("../images/t1.png") repeat-x;
+    border-radius: 3px;
+}
+.page>.left>.wood-img{
+    height: 64px;
+    background: url("../images/wood.png");
+    display: flex;
+    align-items: center;
+    box-shadow:inset 0px 15px 15px -15px #333,
+             inset 0px -15px 15px -15px #333; 
+}
+.page>.left>.wood-img>div{
+    margin-left: 8px;
+}
+
+.page>.left>.wood-img>div i{
+    position: relative;
+    top: 2.5px;
+    font-size: 20px;
+    color: #cbb0a7;
+    margin-right: 8px;
+}
+.page>.left>.wood-img>div span{
+    font-size: 13px;
+    display: inline-block;
+    color: #ecbd85;
+}
+
+
+
+.page>.left>.inventory{
+    position: relative;
+}
+.page>.left>.inventory>.list{
+    height: 414px;
+    background: url("../images/shouzibg.png");
+}
+.page>.left>.inventory>.list>.title{
+    padding-left: 10px;
+    height: 43px;
+    background: url("../images/bg3.png") repeat-x;
+    display: flex;
+    align-items: center;
+    color: #b7b0ae;
+    border-bottom: 1px solid black;
+}
+.page>.left>.inventory>.list>.title>i{
+    color: #e7e8eb;
+    margin-right: 6px;
+    position: relative;
+    top: 1.5px;
+    font-size: 20px;
+}
+
+.page>.left>.inventory>.list>table{
+    background-color: #f0e7d5;
+    border-collapse: collapse;
+    border-left-color: #f0e7d5;
+    border-right-color: #f0e7d5;
+    width: 100%;
+    line-height: 42px;
+    box-shadow:0px 4px 5px 0px #777;
+}
+
+.page>.left>.inventory>.list>table tr>*{
+    border-bottom: 1px solid #c1ac97;
+    border-top: 1px solid white;
+    color: #803717;
+    font-size: 13px;
+}
+.page>.left>.inventory>.list>table tr>*:first-child{
+    text-align: left;
+    text-indent: 25px;
+}
+.page>.left>.inventory>.list>table tr>*:last-child{
+    padding-right: 40px;
+}
+.page>.left>.inventory>.list>table tr>*:not(:first-child){
+    text-align: right;
+}
+.page>.left>.inventory>.total{
+    height: 140px;
+    position: relative;
+    z-index: 10;
+    background-color: #f3e7bf;
+    box-shadow: 0 -3px 5px 0 #999;
+    border-top: 1px solid #f3e7bf;
+}
+.page>.left>.inventory>.total>p{
+    color: #bb2f20;
+    font-weight: 800;
+    width: 213px;
+    height: 47px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 14px;
+    background-color: #f2f1d3;
+    margin: 25px 20px;
+}
+.page>.left>.inventory>.total>p>span:nth-child(1){
+    float: left;
+}
+.page>.left>.inventory>.total>p>span:nth-child(2){
+    float: right;
+}
+.page>.left>.inventory>.total>.search-box{
+    overflow: hidden;
+    position: relative;
+}
+.page>.left>.inventory>.total>.search-box>*{
+    float: left;
+}
+.page>.left>.inventory>.total>.search-box>input{
+    opacity: 0.5;
+    text-indent: 15px;
+    width: 213px;
+    height: 30px;
+    margin-left: 3px;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #666;
+}
+.page>.left>.inventory>.total>.search-box>div:nth-child(2){
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    background-color: #b2b2b2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 190px;
+}
+.page>.left>.inventory>.total>.search-box>div:nth-child(2)>i{
+    color: white;
+    position: relative;
+    top: -3px;
+    left: 3.5px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.page>.left>.inventory>.total>.search-box>div:nth-child(3){
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+.page>.left>.inventory>.total>.search-box>div:nth-child(3)>i{
+    font-weight: 800;
+    color: #b2b2b2;
+}
+.page>.left>.inventory>.operate{
+    z-index: 20;
+    width: 40px;
+    height: 510px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 44px;
+    right: 0;
+    
+}
+.page>.left>.inventory>.operate>ul>li{
+    float: none;
+    width: 34px;
+    height: 34px;
+    margin: 7px auto;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fdfded;
+    color: rgba(0, 0, 0, 0.4);
+}
+.page>.left>.inventory>.operate>ul>li>i{
+    font-size: 23px;
+    font-weight: 800;
+    position: relative;
+    top: 6px;
+}
+.page>.left>.inventory>.operate>ul>li>.font{
+    font-weight: 800;
+    position: relative;
+    top: 6px;
+}
+.page>.left>.inventory>.operate>ul>li>i.iconshanchuxuanxiang{
+    font-size: 20px;
+    position: relative;
+    top: 7px;
+}
+.page>.right>.book{
+    height: 604px;
+    margin: 12.5px 12px 0;
+}
+.page>.right>.book>.label{
+    margin-left: 50px;
+    
+}
+.page>.right>.book>.label>li{
+    height: 47px;
+    line-height: 47px;
+    padding: 0 25px;
+    background-color: #ecbd85;
+    margin-right: 5px;
+    border-radius: 2px;
+    color: #88491d;
+    position: relative;
+    z-index: 1;
+}
+.page>.right>.book>.label>li:last-child{
+    padding: 0 18px;
+}
+.page>.right>.book>.label>li.label-choosed{
+    color: white;
+    background-color: #c6412e;
+}
+.page>.right>.book>.book-page{
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 15px 2px rgb(31, 30, 30);
+}
+.page>.right>.book>.book-page>.bearing{
+    width: 79px;
+    height: 556px;
+    background: url("../images/bg5.png") repeat-y;
+    float: left;
+}
+.page>.right>.book>.book-page>.content{
+    width: 617px;
+    height: 556px;
+    float: right;
+    background-color: #fdfdf5;
+}
+.page>.right>.book>.book-page>.content>.content-page{
+    width: 586px;
+    border-top: 2px solid #c63f2B;
+    margin-top: 23px;
+}
+.page>.right>.book>.book-page>.content>.content-page>ul{
+    overflow: visible;
+}
+.page>.right>.book>.book-page>.content>.content-page>ul>li{
+    margin-top: 16px;
+    width: 104px;
+    height: 70px;
+    box-shadow: 3px 3px 3px #ddd;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    box-sizing: border-box;
+    border: 1px solid #f8e8d1;
+}
+.page>.right>.book>.book-page>.content>.content-page>ul>li.focused{
+    border: 2px solid #c33;
+    box-shadow: 3px 3px 3px #aaa;
+}
+.page>.right>.book>.book-page>.content>.content-page>ul>li>div>p:nth-child(1){
+    font-weight: 500;
+    font-size: 11px;
+    color: #ca422e;
+}
+.page>.right>.book>.book-page>.content>.content-page>ul>li>div>p:nth-child(2){
+    font-weight: 500;
+    font-size: 12px;
+    color: #666;
+}
+
+.page>.right>.book>.book-page>.content>.content-page>ul>li:not(:last-child){
+    margin-right: 16.5px;
+}
